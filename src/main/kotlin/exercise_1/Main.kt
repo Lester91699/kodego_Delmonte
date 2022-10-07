@@ -1,5 +1,6 @@
 package exercise_1
 
+
 fun main() {
     var positionApplying:String? = null
     var desiredSalary:String? = null
@@ -30,6 +31,10 @@ fun main() {
     var yearsAttended3:String? = null
     var degreeReceived3:String? = null
     var major3:String? = null
+
+
+
+
 
 
 }
