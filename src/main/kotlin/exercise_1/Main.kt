@@ -33,8 +33,4 @@ fun main() {
     var major3:String? = null
 
 
-
-
-
-
 }
