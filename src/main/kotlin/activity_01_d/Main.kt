@@ -17,6 +17,7 @@ fun main() {
     var monetaryAmount5:Int? = null
     var totalMonetaryAmount:Int? = null
     var value:Int? = null
+    var result = 0
 
     print("First Amount: ")
     monetaryAmount1 = readLine()!!.toInt()
@@ -29,10 +30,9 @@ fun main() {
     print("Fifth Amount: ")
     monetaryAmount5 = readLine()!!.toInt()
     totalMonetaryAmount = monetaryAmount1 + monetaryAmount2 + monetaryAmount3 + monetaryAmount4 + monetaryAmount5
-    print("Total Amount: ")
-    println(totalMonetaryAmount)
-    print("Divide the value by how many? ")
+    println("Total Amount: $totalMonetaryAmount")
+    print("Divide the total amount by: ")
     value = readLine()!!.toInt()
-    print ("Total value: ")
-    println(totalMonetaryAmount / value)
+    result = totalMonetaryAmount / value
+    println("Total value: $result")
 }
