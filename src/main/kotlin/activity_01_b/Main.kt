@@ -7,7 +7,9 @@ fun main() {
     var borrowedBooks:String? = null
     var dateBorrowed:LocalDateTime? = null
     var dateReturned:LocalDateTime? = null
-    var missingBooks:String? = null
+    var totalLibraryBooks:Long? = null
+    var totalBorrowedBooks:Long? = null
+    var missingBooks:Long? = null
 
 
 }

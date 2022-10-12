@@ -9,9 +9,15 @@ fun main() {
     var studentsAddress:String? = null
     var studentsMobileNumber:Long? = null
     var studentsEmailAddress:String? = null
-    var studentsDailyAttendace:String? = null
+    var studentsDailyAttendance:String? = null
+    var datesPresent:String? = null
+    var datesAbsent:String? = null
     var studentsProgress:String? = null
     var studentsGrade:Double? = null
+
+
+
+
 
 
 }

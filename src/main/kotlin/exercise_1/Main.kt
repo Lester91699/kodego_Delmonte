@@ -2,35 +2,49 @@ package exercise_1
 
 
 fun main() {
+    //APPLICATION FOR EMPLOYMENT
     var positionApplying:String? = null
-    var desiredSalary:String? = null
-    var dateAvailable = null
+    var desiredSalary:Float? = null
+    var dateAvailable:String? = null
+
+    //PERSONAL INFORMATION
     var lastName:String? = null
     var firstName:String? = null
     var middleNAme:String? = null
-    var Birthday = null
+    var dateOfBirth:String? = null
     var address:String? = null
     var city:String? = null
     var state:String? = null
-    var zip:Int? = null
-    var homecontactnumber:Long? = null
-    var phonecontactnumber:Long? = null
-    var emailaddress:String? = null
-    var school:String? = null
-    var shoolLocation:String? = null
-    var yearsAttended:String? = null
+    var zip:Short? = null
+    var landlineNumber:Int? = null
+    var mobileNumber:Int? = null
+    var emailAddress:String? = null
+
+    var question1:Boolean? = null
+    var question2:Boolean? = null
+    var question3:Boolean? = null
+
+    //EDUCATION
+    var schoolNAme:String? = null
+    var schoolLocation:String? = null
+    var yearsAttended:Short? = null
     var degreeReceived:String? = null
     var major:String? = null
-    var school2:String? = null
+
+    var schoolNAme2:String? = null
     var schoolLocation2:String? = null
-    var yearsAttended2:String? = null
+    var yearsAttended2:Short? = null
     var degreeReceived2:String? = null
     var major2:String? = null
-    var school3:String? = null
+
+    var schoolNAme3:String? = null
     var schoolLocation3:String? = null
-    var yearsAttended3:String? = null
+    var yearsAttended3:Short? = null
     var degreeReceived3:String? = null
     var major3:String? = null
+
+
+
 
 
 }

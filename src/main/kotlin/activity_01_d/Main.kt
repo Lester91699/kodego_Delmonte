@@ -29,10 +29,22 @@ fun main() {
     monetaryAmount4 = readLine()!!.toInt()
     print("Fifth Amount: ")
     monetaryAmount5 = readLine()!!.toInt()
+
     totalMonetaryAmount = monetaryAmount1 + monetaryAmount2 + monetaryAmount3 + monetaryAmount4 + monetaryAmount5
     println("Total Amount: $totalMonetaryAmount")
-    print("Divide the total amount by: ")
+
+    print("Divide the value by how many? ")
     value = readLine()!!.toInt()
+
     result = totalMonetaryAmount / value
+
     println("Total value: $result")
+
+
+
+
+
+
+
+
 }

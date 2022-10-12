@@ -1,17 +1,15 @@
 package activity_01_c
 
-import java.util.Date
-import java.time.LocalTime
+import java.time.LocalDateTime
 
 fun main() {
+    var goods = listOf("")
     var meats = listOf("")
-    var Vegetables = listOf("")
-    var Fruits = listOf("")
+    var vegetables = listOf("")
+    var fruits = listOf("")
     var itemSold:String? = null
-    var dateSold:Date? = null
-    var timeSold:LocalTime? = null
+    var dateSold:LocalDateTime? = null
     var itemCost:Double? = null
-    var totalSales:Long? = null
-
+    var totalSales:Double? = null
 
 }
