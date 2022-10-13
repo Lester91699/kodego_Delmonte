@@ -1,17 +1,19 @@
 package exercise_1
 
 
+import java.util.Date
+
 fun main() {
     //APPLICATION FOR EMPLOYMENT
     var positionApplying:String? = null
     var desiredSalary:Float? = null
-    var dateAvailable:String? = null
+    var dateAvailable:Date? = null
 
     //PERSONAL INFORMATION
     var lastName:String? = null
     var firstName:String? = null
     var middleNAme:String? = null
-    var dateOfBirth:String? = null
+    var dateOfBirth:Date? = null
     var address:String? = null
     var city:String? = null
     var state:String? = null
@@ -42,8 +44,6 @@ fun main() {
     var yearsAttended3:Short? = null
     var degreeReceived3:String? = null
     var major3:String? = null
-
-
 
 
 
