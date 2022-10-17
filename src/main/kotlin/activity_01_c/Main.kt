@@ -12,4 +12,7 @@ fun main() {
     var itemCost:Double? = null
     var totalSales:Double? = null
 
+
+
+
 }
