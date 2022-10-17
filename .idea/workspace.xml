@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b270cda3-0576-43f6-b9a3-03b8f999bfc0" name="Changes" comment="updating activities">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity_01_c/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01_c/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity_01_d/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01_d/Main.kt" afterDir="false" />
-    </list>
+    <list default="true" id="b270cda3-0576-43f6-b9a3-03b8f999bfc0" name="Changes" comment="updating exercises" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665660624432</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="updating exercises">
+      <created>1666007962566</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666007962566</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +220,8 @@
     <MESSAGE value="added exercise 1 A-D package&#10;added Main.kt in exercise 1 A-D" />
     <MESSAGE value="added activity 1 d package&#10;added Main.kt in activity 1 d" />
     <MESSAGE value="updating activities" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating activities" />
+    <MESSAGE value="updating exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating exercises" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
