@@ -13,48 +13,52 @@ Note: Error checking must be done.
  */
 
 fun main() {
-    print("Enter First Amount: ")
-    var monetaryAmount1 = readln().toIntOrNull()
-    print("Enter Second Amount: ")
-    var monetaryAmount2 = readln().toIntOrNull()
-    print("Enter Third Amount: ")
-    var monetaryAmount3 = readln().toIntOrNull()
-    print("Enter Fourth Amount: ")
-    var monetaryAmount4 = readln().toIntOrNull()
-    print("Enter Fifth Amount: ")
-    var monetaryAmount5 = readln().toIntOrNull()
-
     var totalMonetaryAmount:Int? = null
     var value:Int? = null
     var result = 0
 
+    print("Enter First Amount: ")
+    var monetaryAmount1 = readln().toIntOrNull()
     if (monetaryAmount1 == null){
         do{
             logger.error{ "Invalid Input" }
+            print("Please Enter First Amount Again: ")
             monetaryAmount1 = readln().toIntOrNull()
         }while (monetaryAmount1 == null)
     }
+    print("Enter Second Amount: ")
+    var monetaryAmount2 = readln().toIntOrNull()
     if (monetaryAmount2 == null) {
         do {
             logger.error { "Invalid Input" }
+            print("Please Enter Second Amount Again: ")
             monetaryAmount2 = readln().toIntOrNull()
         } while (monetaryAmount2 == null)
     }
+    print("Enter Third Amount: ")
+    var monetaryAmount3 = readln().toIntOrNull()
     if (monetaryAmount3 == null){
         do{
             logger.error{ "Invalid Input" }
+            print("Please Enter Third Amount Again: ")
             monetaryAmount3 = readln().toIntOrNull()
         }while (monetaryAmount3 == null)
     }
+    print("Enter Fourth Amount: ")
+    var monetaryAmount4 = readln().toIntOrNull()
     if (monetaryAmount4 == null){
         do{
             logger.error{ "Invalid Input" }
+            print("Please Enter Fourth Amount Again: ")
             monetaryAmount4 = readln().toIntOrNull()
         }while (monetaryAmount4 == null)
     }
+    print("Enter Fifth Amount: ")
+    var monetaryAmount5 = readln().toIntOrNull()
     if (monetaryAmount5 == null){
         do{
             logger.error{ "Invalid Input" }
+            print("Please Enter Fifth Amount Again: ")
             monetaryAmount5 = readln().toIntOrNull()
         }while (monetaryAmount5 == null)
     }
@@ -65,6 +69,7 @@ fun main() {
     if (divideBy == null) {
         do {
             logger.error { "Invalid Input" }
+            print("Please Enter Amount Again: ")
             divideBy = readln().toIntOrNull()
         } while (divideBy == null)
     }
