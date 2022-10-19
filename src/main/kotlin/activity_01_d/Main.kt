@@ -13,67 +13,68 @@ Note: Error checking must be done.
  */
 
 fun main() {
-    var totalMonetaryAmount:Int? = null
-    var value:Int? = null
-    var result = 0
 
-    print("Enter First Amount: ")
-    var monetaryAmount1 = readln().toIntOrNull()
+    print("Input First Amount: ")
+    var monetaryAmount1 = readLine()!!.toIntOrNull()
     if (monetaryAmount1 == null){
         do{
-            logger.error{ "Invalid Input" }
-            print("Please Enter First Amount Again: ")
-            monetaryAmount1 = readln().toIntOrNull()
+            logger.info { "Invalid Input" }
+            print("Please Input First Amount Again: ")
+            monetaryAmount1 = readLine()!!.toIntOrNull()
         }while (monetaryAmount1 == null)
     }
-    print("Enter Second Amount: ")
-    var monetaryAmount2 = readln().toIntOrNull()
+    print("Input Second Amount: ")
+    var monetaryAmount2 = readLine()!!.toIntOrNull()
     if (monetaryAmount2 == null) {
         do {
-            logger.error { "Invalid Input" }
-            print("Please Enter Second Amount Again: ")
-            monetaryAmount2 = readln().toIntOrNull()
+            logger.info { "Invalid Input" }
+            print("Please Input Second Amount Again: ")
+            monetaryAmount2 = readLine()!!.toIntOrNull()
         } while (monetaryAmount2 == null)
     }
-    print("Enter Third Amount: ")
-    var monetaryAmount3 = readln().toIntOrNull()
+    print("Input Third Amount: ")
+    var monetaryAmount3 = readLine()!!.toIntOrNull()
     if (monetaryAmount3 == null){
         do{
-            logger.error{ "Invalid Input" }
-            print("Please Enter Third Amount Again: ")
-            monetaryAmount3 = readln().toIntOrNull()
+            logger.info { "Invalid Input" }
+            print("Please Input Third Amount Again: ")
+            monetaryAmount3 = readLine()!!.toIntOrNull()
         }while (monetaryAmount3 == null)
     }
-    print("Enter Fourth Amount: ")
-    var monetaryAmount4 = readln().toIntOrNull()
+    print("Input Fourth Amount: ")
+    var monetaryAmount4 = readLine()!!.toIntOrNull()
     if (monetaryAmount4 == null){
         do{
-            logger.error{ "Invalid Input" }
-            print("Please Enter Fourth Amount Again: ")
-            monetaryAmount4 = readln().toIntOrNull()
+            logger.info { "Invalid Input" }
+            print("Please Input Fourth Amount Again: ")
+            monetaryAmount4 = readLine()!!.toIntOrNull()
         }while (monetaryAmount4 == null)
     }
-    print("Enter Fifth Amount: ")
-    var monetaryAmount5 = readln().toIntOrNull()
+    print("Input Fifth Amount: ")
+    var monetaryAmount5 = readLine()!!.toIntOrNull()
     if (monetaryAmount5 == null){
         do{
-            logger.error{ "Invalid Input" }
-            print("Please Enter Fifth Amount Again: ")
-            monetaryAmount5 = readln().toIntOrNull()
+            logger.info { "Invalid Input" }
+            print("Please Input Fifth Amount Again: ")
+            monetaryAmount5 = readLine()!!.toIntOrNull()
         }while (monetaryAmount5 == null)
     }
-    totalMonetaryAmount = monetaryAmount1 + monetaryAmount2 + monetaryAmount3 + monetaryAmount4 + monetaryAmount5
-    println("Total Amount: $totalMonetaryAmount")
+
+    println()
+    val totalMonetaryAmount = monetaryAmount1 + monetaryAmount2 + monetaryAmount3 + monetaryAmount4 + monetaryAmount5
+    logger.info { "Total Amount: $totalMonetaryAmount" }
+    println()
     print("Divide the value by how many?\nEnter Amount: ")
-    var divideBy = readln().toIntOrNull()
+    var divideBy = readLine()!!.toIntOrNull()
     if (divideBy == null) {
         do {
-            logger.error { "Invalid Input" }
-            print("Please Enter Amount Again: ")
-            divideBy = readln().toIntOrNull()
+            logger.info { "Invalid Input" }
+            print("Please Input Amount Again: ")
+            divideBy = readLine()!!.toIntOrNull()
         } while (divideBy == null)
     }
-    value = divideBy
-    result = totalMonetaryAmount / value
+
+    val result = totalMonetaryAmount / divideBy
+    println()
     logger.info { "Total value: $result" }
 }

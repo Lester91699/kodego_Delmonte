@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b270cda3-0576-43f6-b9a3-03b8f999bfc0" name="Changes" comment="updating exercises" />
+    <list default="true" id="b270cda3-0576-43f6-b9a3-03b8f999bfc0" name="Changes" comment="updating exercises">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01_e/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercise_1/Practicing Codes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity_01_d/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01_d/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise_1.MainKt" />
+    <configuration name="Practicing_CodesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise_1.Practicing_CodesKt" />
       <module name="KodeGoExcercices.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,10 +91,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.MainKt (4)" />
+        <item itemvalue="Kotlin.Practicing_CodesKt" />
         <item itemvalue="Kotlin.MainKt (3)" />
         <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin.MainKt (1)" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666070439884</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="updating exercises">
+      <created>1666070450418</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666070450418</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
